@@ -1,0 +1,24 @@
+History of Java:
+	Java 1.8 version is developed in 2016
+	The features in Java 1.8 are very useful 
+	So till now every 19 companies are using Java1.8
+	As of today if we go to interview for java developer they will ask questions about Java 1.8.
+	1.23 is currently developed version.
+	1.24 is still in development.
+
+Default:
+Default things or pre-defined things are the in-built things like:
+Couple of classes and interfaces are known as defalut things or pre-defined things
+Object is the first class that is written by James Gosling
+Object is known as Mother class/Root class/Beginning class
+Object has some properties 
+public class object{
+
+}
+
+Packages are the seggregations of things in Java
+Packages are the folders that are created to store different types of classes
+Default Packages:
+lang,util,math,SQL,Time.nio,io,Security
+Object is stored in lang package.
+Basic things are in lang package.

@@ -1,0 +1,108 @@
+Application:
+	1.Front end - Html,css,JS
+	2.middle ware- java,python,c,c#,Node
+	3.Database - SQL,NOSQL
+
+Types of application:
+	1.Web application
+	2.Mobile application
+	3.Desktop application: 
+		ex-calculator which can be accessed only on local PC 
+
+Keywords:
+	-we have 65 Keywords in java
+	-We cannot use keywords as variables or class name. 
+
+Data types :
+	1.primitive: 8 types
+		byte - 8 bits (-128 to +127)
+		short - 1 byte (-32.. to +32..)
+		char - 
+		int - 4 bytes(-21cr to +21cr)
+		float - 4 bytes
+		double - 8 bytes
+		long - 8 bytes
+		boolean - 0 or 1
+
+	2.Non-primitive:
+		String : 
+		Array : 
+		List : 
+		Stack : 
+		Queue : 
+	etc...
+
+Variables:
+Variable has type ,name ,value
+	Naming variables:
+		1.Camel case convention: ex - firstName
+		2.Snake:ex-first_name
+		3.spacial chars allowed: $,_
+
+Default values: Only to the class level variables 
+	int/long/short/byte - 0
+	float/double - 0.0
+	char- ' '
+	boolean - 0
+
+Unboxing & autoboxing :
+	Unboxing:
+		 refers to converting an object of a wrapper type to its corresponding primitive value.
+	autoboxing:
+		 refers to the conversion of a primitive value into an object of the corresponding wrapper class is called autoboxing.
+
+Type Casting:
+Used to change or upgrade the data type 
+
+Operators:
+	1.Arithmetic operators : add, sub, mul, div, modulus (+,-,*,/,%)
+
+
+Program 1 : Hello_Numbers.java
+
+import java.lang.*;
+class Hello_Numbers {
+    public static void main(String[] args) {
+        byte a=10;
+        byte b=20;
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+    }
+}
+
+Learnings:
+
+*Only global variables Can survive with no values as they are assigned default values.
+*Local varibales possess error when no value is assigned to them.
+
+Rules:
+-In the defualt lines of the code only the Class name and Strings [] args have capitals in them other than them no words can have capitals.
+
+
+Global Variable/Class variable:
+	-They have global scope means they can used in the entire class 
+	-They Can be accessed in the entire program
+Local Variables/Method Variable:
+	-They can only be used in the method they have been initialized in.
+	-They cannot be accessed outside the method they are declared.
+
+
+
+=>Package Creation: Right click on the src folder and select New>Package>Give Packag_name.
+=>File Creation : click on folder name new>java class>class name.
+
+Comments:
+Single line: we use  '//' for single line comment.
+Multi line: we use "/*....*/" for multiple line comment.
+
+
+
+
+
+
+
+
+

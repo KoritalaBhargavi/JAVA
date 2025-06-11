@@ -1,0 +1,141 @@
+Varibles:
+	can have numbers in between not at start.
+	can have $,_ in the variable name.
+
+Operators:
+	1.Arithmetic: 
+		used to perform +,-,/,*,%
+	2.Relational: 
+		Used yo check relations <,>,<=,>=,==,!=
+	3.Logical: 
+		Used to Perform && , || ,!
+	4.Assignment: 
+		Used to perform ==,+=,-=,*=,/=.
+	5.Bitwise:
+		Used to perform &,|,!
+		we get 0 or 1 as output
+	6.Unary: 
+		Used to perform ++,--
+	7.Ternary: 
+		Syntax: (condition)?value1:value2;
+
+Variables can be assigned with value and another variable.
+
+1.Arthmetic Operators:
+Program:
+public class Hello_digits {
+    public static void main(String[] args){
+        int a=4;
+        int b=8;
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+    }
+}
+
+
+2.Relational Operators:
+Program:
+public class Camparison {
+    public static void main(String[] args){
+        int a=100;
+        int b=403;
+        System.out.println(a<b);
+        System.out.println(a>b);
+        System.out.println(a>=b);
+        System.out.println(a<=b);
+        System.out.println(a==b);
+    }
+}
+
+3.Logical Operators - Truth table :
+
+a	b	&&	||	^	!a
+T	T	T	T	0	0
+T	F	F	T	1	0
+F	T	F	T	1	1
+F	F	F	F	0	1
+
+Program:
+public class Logical {
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        System.out.println((a>b)&&(a<b));
+        System.out.println((a<b)||(a>=b));
+        System.out.println((a>b)||(a!=10));
+
+    }
+}
+
+4.Assignment Operations:
+Program:
+public class Assignment {
+    public static void main(String[] args){
+        int a=10;
+        int b=20;
+        System.out.println(a+=b);
+        System.out.println(a-=b);
+        System.out.println(a*=b);
+        System.out.println(a/=b);
+        System.out.println(a%=b);
+        System.out.println(a=a+b);
+        System.out.println(a=a-b);
+        System.out.println(a=a*b);
+        System.out.println(a=a/b);
+        System.out.println(a=a%b);
+    }
+}
+
+5.Unary Operations:
+Program:
+public class Unary {
+    public static void main(String[] args){
+        int a=10;
+        System.out.println("Initial Value :"+a);
+        System.out.println(a++);
+        System.out.println(++a);
+        System.out.println(--a);
+        System.out.println(a--);
+        System.out.println("Final Value:"+a);
+    }
+}
+
+6.Ternary Operation:
+Program:
+public class Ternary {
+    public static void main(String[] args){
+        int a=30;
+        int b=20;
+        System.out.println((a>18)?"Eligible":"Not Eligible");      
+    }
+}
+
+7.Bitwise:
+	Returns 0 and 1
+
+
+Package Importing:
+
+-To import packages we use "import" keyword.
+-This keyword is used to import packages into the program.
+Syntax:
+	import java.package.*;
+		(or)
+	import java.package.method;
+
+Classes:
+	-Class consists of methods and variables.
+	-Class can have many no.of methods.
+Object:
+	-Object is an instance of class.
+	-Syntax:
+		Class objvar = new Class();
+
+
+
+
+
+
