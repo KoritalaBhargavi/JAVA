@@ -1,0 +1,92 @@
+PACKAGE:
+Some default packages are:lang,util,time,io,nio,sql etc..
+
+ACCESSING INBUILT METHODS:
+1.import package,class and method.
+2.create an object.
+
+USER INPUT USING SCANNER CLASS:
+1.Numerical data:
+	nextInt(),nextFloat(),nextDouble(),
+2.String:
+	next();,nextLine();
+
+NUMERICAL:
+
+import java.util.*;
+public class GreaterNum {
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        int a= sc.nextInt();
+        int b= sc.nextInt();
+        int c=sc.nextInt();
+        int result1=(a>b&&a>c)?a:(b>c)?b:c;
+        int result2=(a<result1)?(result1>b && a<b)?b:(result1>c)?c:b:a;
+        System.out.println(result1);
+        System.out.println(result2);
+
+    }
+}
+
+STRING INPUT:
+import java.util.*;
+public class Readingstring {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        String a=sc.nextLine();
+        String b=sc.nextLine();
+        System.out.println(a+" "+b);
+
+    }
+}
+
+
+DRAWBACKS OF SCANNER CLASS:
+
+Here next() method doesn't let the next line to execute i.e., if we write next() and then there is a need to take another input the next() method doesn't lest the next line to get compiled. 
+
+So inorder to overcome this problem,WE use " Buffer reader " class for reading string input.
+						(or)
+We can write obj.nextLine() method for taking input in the next line.
+
+	Ex:sc.nextLine();
+
+CONTROL FLOW STATEMENTS:
+	1.CONDITIONAL STATEMENTS
+	2.LOOP STATEMENTS
+	3.JUMP STATEMENTS
+
+1.CONDITIONAL STATEMENTS:
+	These are used to execute a block of code based on the conditions.If condition met then the corresponding code will get executes
+
+Types of conditional statements:
+	1.simple if:
+		Syntax:
+			if(condition){
+				//
+			}
+	2.if else:
+		Syntax:
+			if(condion){
+				//
+			}
+			else{
+				//
+			}
+	3.if else ladder:
+		Syntax:
+			if(condition)
+				//
+			else if(condition)
+				//
+			....
+			else
+	4.Nested if else:
+	5.Switch:
+
+	
+
+
+
+
+

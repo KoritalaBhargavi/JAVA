@@ -1,0 +1,39 @@
+STATIC AND NON STATIC CONTENT:
+	Non static content(variables and methods) cannot be accessed in the static method.
+	To access non static content in static method we need to create object.
+
+
+CONTROL FLOW STATEMENTS
+
+2.LOOP STATEMENTS:
+They are used to ease the handling of code.
+	1.FOR LOOP:
+		-It is entry controlled loop.
+		-It has 2 statements(i=0,i++) and 1 condition(i<n).
+		-The condition need to be satisfied to execute the lines in loop.
+		-This is used when when we know where to start and stop. 
+		Syntax:
+			for(initialize;condition;increment){
+				//code
+			}
+
+	2.WHILE LOOP:
+		-It is Entry controlled loop.
+		-It is 
+		Syntax:
+			while(condition){
+				//code
+			}
+
+
+	3.DO WHILE LOOP:
+		It is exit controlled loop and will execute atleast once.
+		Syntax:
+			do{
+				//
+			}while(condition);
+
+ABNORMAL LOOP TERMINATION:
+
+1.break
+2.continue

@@ -1,0 +1,66 @@
+String Initialization:
+
+1.String CName="CIET";
+
+2.String CName= new String("CIET");
+
+JVM(JAVA VIRTUAL MACHINE):
+
+JVM is used to allocate memory.
+It has 2 ways of storing:
+	1.Stack - temporary  
+	2.Heap - Permanent
+	   |
+	    -Heap - Used to store data which is created using new keyword.when we use new then it checks in 	Scp whether the value is there in Scp if not found 2 objects are created.
+	   |
+	    -String Constant pool(SCP)-Used to store String when you create a string only in literals approach 	only.
+
+Ex:
+	int a=16;
+	float f1=38.4f;
+These both are stored in stack when accessed the focus is navigated to the memory location.
+
+MEMORY CLEANING:
+
+	System.gc(); - 
+		-IT is used to clean the unused, unutilized memory called "garbage collector".
+		-It is available in System class and is default written by James gosling.
+
+
+STRING COMPARISON:
+
+DIFFERENCE BETWEEN == AND .equals()is
+	O == compares address of the variables.
+	O .equals() compares content of the variables.
+
+
+METHODS AVAILABLE IN STRING CLASS:
+1.length():used to check the length of the string.
+2.equalas():checks whether both strings are equal.
+3.parseInt(): Used to Convert (num)String to number, it is present in Integer class.
+
+
+Types of classes:
+1. Static Class:
+A static class, in Java, is typically an inner static class.
+It does not require an instance of an enclosing class to be instantiated.
+Methods and variables of a static class can be accessed using the class name.
+
+Syntax:
+Classname.varible;
+classname.method();
+
+Ex:
+Integer Class
+
+2. Instance Class:
+An instance class (non-static class) requires an object to be instantiated before its methods and variables can be accessed.
+You do not need to use the class name; instead, you can call methods on an object instance of the class.
+
+Syntax:
+Instance.method();
+
+Ex:
+String class
+
+Note:Integer and String class are present in lang package
