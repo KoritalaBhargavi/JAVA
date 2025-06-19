@@ -1,0 +1,170 @@
+ARRAYS:
+	-Arrays are the storage variable to store multiple elements of same data type.
+	-Primitive and can be non-primitive.
+	-No.of storage containers should be declared before.
+	SYNTAX:
+		int[] a=new int[10];
+	-Everything will be assigned with 0 as default by the JVM when object is created as above.
+
+Drawbacks:
+	The length should be pre-declared.
+	Can only store similar type data. 
+
+TYPES OF ARRAYS CAN BE CREATED:
+1.int array
+2.float
+3.byte
+4.char
+5.double
+6.long
+7.short
+8.boolean
+
+1.Anagrams
+Program:
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+import java.util.Arrays;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String s1=sc.nextLine();
+        String s2=sc.nextLine();
+        char ch1[]=s1.toCharArray();
+        char ch2[]=s2.toCharArray();
+        Arrays.sort(ch1);
+        Arrays.sort(ch2);
+        if(Arrays.equals(ch1,ch2))
+            System.out.println("Yes");
+        else
+            System.out.println("No");
+    }
+}
+
+2.Largest number
+Program:
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a[]=new int[n];
+        for(int i=0;i<n;i++){
+            a[i]=sc.nextInt();
+        }
+        int max=a[0];
+        for(int i=1;i<n;i++){
+            if(a[i]>max)
+                max=a[i];
+        }
+        System.out.println(max);
+    }
+}
+
+3.Second largest element:
+Program:
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+
+        int a[]=new int[n];
+        for(int i=0;i<n;i++){
+            a[i]=sc.nextInt();
+        }
+        int max=a[0];
+        int max_index=0;
+        for(int i=1;i<n;i++){
+            if(a[i]>max){
+                max=a[i];
+                max_index=i;
+            }
+        }
+        int large=a[max_index];
+        a[max_index]=a[n-1];
+        a[n-1]=large;
+        int max1=a[0];
+        int found=0;
+        for(int i=0;i<n-1;i++){
+            if(a[i]>=max1 && a[i]!=max) {
+                max1 = a[i];
+                found=1;
+            }
+        }
+        if(found==0){
+            System.out.println("No second largest element");
+        }
+        else
+        System.out.println(max1);
+    }
+}
+
+4.Avg of array:
+Program:
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a[]=new int[n];
+        int sum=0;
+        for (int i=0;i<n;i++){
+            a[i]=sc.nextInt();
+            sum+=a[i];
+        }
+        System.out.println((float)sum/n);
+    }
+}
+
+5.Reverse of an array:
+Program:
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int a[]=new int[n];
+        for(int i=0;i<n;i++){
+            a[i]=sc.nextInt();
+        }
+        
+        for(int i=0,j=n-1;i<j;i++,j--){
+            int temp=a[i];
+            a[i]=a[j];
+            a[j]=temp;
+        }
+        for(int x:a){
+            System.out.print(x+" ");
+        }
+    }
+}
