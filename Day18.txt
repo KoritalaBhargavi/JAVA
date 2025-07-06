@@ -1,0 +1,25 @@
+CONSTRUCTOR:
+	-It has the same as the class name i.e., the constructor name is same as class name.
+	-Constructors doesn't have datatype before its name.
+	-There is no need to write methods for setting or getting values 
+	-This can help assign multiple values to the variables in a class
+	-Constructor can have another constructor inside it. This is called chain Constructors.
+	-Used to construct values to the class variables.
+	-If you define any constructor, Java won't provide the default one
+	-Constructors can't be abstract, static, final, or synchronized
+	-You can use access modifiers with constructors (public, private, protected)
+	-A constructor can call another constructor of the same class using this()
+
+	KEY CHARACTERISTICS:
+		1.same as class name
+		2.no return type
+		3.Automatic invocation: Called automatically when object is created
+		4.Initialization: Primarily used to initialize object's state
+	TYPES:
+		1.default constructor(has no parameters)	
+		2.parametirized constructor(has parameters)
+
+WRAPPER CLASSES(Generics):
+	-They are used to work with lists,collections etc..
+	-Ex: list<>,list<Integer> etc....
+

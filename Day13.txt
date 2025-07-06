@@ -1,0 +1,41 @@
+ACCESS MODIFIERS:
+	Specifies whether accessable or not.
+
+1.PUBLIC:
+	-more openness.
+	-very less security.
+	-public keyword is used.
+	-works in same and outside the package.
+	-it can be given to class, variables, methods, constructors.
+2.PRIVATE:
+	-very secure
+	-it is class level permission only.
+	-can be used at variables, methods, constructors.
+	-it doesn't outside the file.
+
+3.DEFAULT:
+	-it is open within the package(package-specific/package private).
+	-it won't work outside the package.
+	-it can be given to class, variables, methods, constructors.
+	-we don't use default keyword.it is assigned by JVM.
+	-less secure compared to private.
+	
+4.PROTECTED:
+	-Called second openness
+	-protected works in same package, its child can be anywhere and it can be accessed via its child in child class package.
+	-can be assigned to variables, methods, constructors.
+	-less secure than default.
+
+
+METHODS/FUNCTIONS:
+
+-method has 2 components.
+-method signature + method body(complete method/concrete method).
+-methods will return types based on output.
+SYNTAX:
+	access_modifier return_type method_name()
+	{
+	//statements or logic
+
+	return;
+	}

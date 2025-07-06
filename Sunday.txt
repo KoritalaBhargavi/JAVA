@@ -1,0 +1,110 @@
+String Creation methods:
+	-Literal approach(1 obj in scp)
+	-New Keyword(2 objs - heap,scp)
+
+String class methods:
+By using these methods everytime a new object is created.it is single and multi threaded and thread safe.
+
+-length():
+used to give number of chars in given string
+EX: s.length()
+
+-toCharArray():
+used to convert String to character 
+EX: s.toCharArray();
+
+-toUpperCase():
+used to convert lower case to upper case
+EX:s.toUpperCase()
+
+-toLowerCase():
+used to convertuppercase to lowercase
+EX:s.toLowerCase();
+
+-equals():
+used to check whether 2 strings are equal or not
+EX:
+
+-equalsIgnoreCase():
+used to compare content by ignoring case
+EX:
+
+-CharAt():
+used to find which character is there at that index.
+EX:s.CharAt(0);
+
+-indexOf():
+used to find the first occurance where a particular char is in the string
+EX:s.indexOf()
+
+-lastIndexOf():
+used to find the last occurrence.
+EX: s.lastIndexOf();
+
+-substring():
+gives part of string(sub string) from given string
+EX:s.substring(start,end+1);
+
+DRAWBACKS OF STRING(lang):
+-immutable
+-everytime it creates new obj
+
+
+STRING BUILDER:
+-it is mutable.
+-it will update existing string builder.
+-single threaded.
+
+
+
+STRING BUFFER:
+-It is mutable.
+-multi threaded and is thread safe.
+
+methods in string buffer:
+1.append()
+used to merge 2 or more strings.
+
+2.toString()
+used to convert string buffer object to string.
+
+3.reverse()
+used to reverse the strinf buffer object.
+
+4.chatAt()
+extract char based on index
+
+5.indexOf()
+gives first occurrence given char
+
+6.lastIndexOf()
+gives the last occurrence
+
+7.deleteCharAt()
+used to delete char based on index
+
+8.delete(stat,end):
+used to delete range
+
+9.subString()
+used to partial string  from string
+
+10.insert(i,value)
+used to insert into a string by index.
+
+11.replace(start,end,replacevalue)
+used to replace content between sart and ending index.
+
+
+
+mutable
+immutable
+single thread
+multi thread
+thread-safe/synchronized
+String
+StringBuilder
+StringBuffer
+Heap
+Scp
+String Object Creation

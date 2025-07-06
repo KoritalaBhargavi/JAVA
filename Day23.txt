@@ -1,0 +1,30 @@
+MAP:
+	-Map is collection of key-value pairs.
+	-In these key-value pairs ,values can be duplicate but keys are always unique.
+	-Initial capacity of Map is 16.
+	-Syntax:
+		Map<Integer> m1=new HashMap<>();
+
+
+Map implementing classes:
+
+1.HashMap:
+	-Doesn't follow insertion order(no order).
+	-keys should be unique 
+	-values can be duplicate,uses hash table.
+	-Accepts null values.
+	-Accpets null as the Key only once ,if given again it updated the value.
+2.LinkedHashMap:
+	-Preserves the insertion order
+	-keys should be unique
+	-values can be duplicate,uses hash table.
+	-Accpets Null values.
+	-Accpets null as the Key only once ,if given again it updated the value.
+3.TreeMap:
+	-Gives the Sorted order of map.
+	-Keys are unique
+	-Doesn't accept null as their keys.
+	-Accepts null values
+4.HashTable:
+
+5.ConcurrentHashMap:

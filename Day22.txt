@@ -1,0 +1,54 @@
+LIST:
+
+3.VECTOR:
+*********
+	-It is same as ArrayList but allows multi threading. 
+
+4.CopyOnWrite:
+**************
+	-It is same as the above.
+
+ITERATOR:
+
+	-it is an Interface ,which can be used to iterate over collections using its object.
+	-SYNTAX:
+		Iterator<String> iterator=l2.iterator();
+        while (iterator.hasNext())
+            System.out.print(iterator.next()+" ");
+
+
+SET:
+
+	-Unordered collections
+	-set doesn't have index based support
+	-it doesn't support set(i,val),get(i,val) methods.
+	-Doesn't contain duplicates
+	-It stores in random order.
+
+Methods:
+	-alternative for get() is contains()
+	-we can use add(),remove(),
+
+Types:
+	1.Hash Set
+	2.Linked Hash Set
+	3.Tree set
+	4.CopyonWriteArraySet
+
+Hashing:
+The process of finding the index .
+
+if 2 values have same hash code means they are stored in same place using linked list.
+2 values having same hash code 
+
+1.Hashset: Remove Duplicates. Single thread . Unordered
+2.Linked Hash Set: Unique. Doesn't Accept duplicates .Single threaded. Returns in Given Order .
+	1. LinkedHashset
+	2. LinkedHashMap
+	3. LinkedHashTable
+
+3.Tree Set: Unique . Single threaded. Gives sorted list. Uses Comparable or Comparator Interfaces.
+	-Tree set(c)
+	-Tree map(c)
+
+

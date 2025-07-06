@@ -1,0 +1,66 @@
+Project Title:“MamaMetrics: SQL-Driven Analytics for Sustainable Growth at Mamaearth”.
+
+Project Overview:
+	-This SQL project will focus exclusively on Mamaearth to explore:
+	-Product performance
+	-Customer purchase behavior
+	-Return patterns
+	-Ratings/sentiment insights
+	-Regional market analysis
+
+
+Proposed Database Schema:(Including columns we are going to work on)
+
+1. products
+
+COLUMNS:
+product_id	product_name	category	price	rating	eco_score
+
+
+2. customers
+
+COLUMNS:
+customer_id	name	city	age	gender
+
+
+3. orders
+
+COLUMNS:
+order_id	customer_id	product_id	order_date	quantity	platform		return_status
+
+4. reviews
+
+COLUMNS:
+review_id	product_id	customer_id	rating	comment
+
+
+
+Project Goals with SQL Queries
+
+
+1. Which products have the highest revenue?
+
+2. What is the return rate by product?
+
+3. How do different cities perform?
+
+4. What is the average eco-score of top-rated products?
+
+and more...
+
+
+Add-Ons that we want to do:
+
+Integrate it into a Power BI or Tableau dashboard for visualization.
+
+
+
+DATA SOURCE WE ARE CONSIDERING FOR THIS PROJECT:
+
+1.product dataset:
+https://www.kaggle.com/datasets/adishgolechha/mamaearth-products-dataset
+
+2.E-commerce:
+https://whylogs.readthedocs.io/en/latest/datasets/ecommerce.html?utm_source=chatgpt.com
+
+3. Customers Dataset (will find or else create a dataset by our own).

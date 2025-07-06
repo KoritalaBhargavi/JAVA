@@ -1,0 +1,102 @@
+WRAPPER CLASSES:
+
+1.Integer
+2.String
+3.Short
+4.Character
+5.Long
+6.Float
+7.Double
+8.Byte
+9.Boolean 
+
+these classes are immutable classes.
+
+COLLECTION Interface:
+	-this is the root interface for all the interfaces.
+
+
+collection Inteface:
+	|
+	  -- List(I)
+	|
+	  -- Set(I)
+	|
+	  -- Queue(I)
+
+
+COLLECTIONS:
+	-collections store multiple values of heterogeneous data.
+	-it overcomes the disadvantage of arrays which is storing similar elements.
+	-It doesn't have fixed memory, therefore makes itself dynamic(dynamic in nature).
+	-IT is mutable, we can change the things we want to.
+	-All methods in collections are applicable for lists,sets,queues etc....
+
+Some methods In collection are:
+1.sort()-sorts any kind of list,set,queue etc...
+2.max()-max value
+3.binarysearch()-searches an element.
+
+
+
+
+
+1.List(I):(10 methods)
+	-It is ordered collection
+	-has 4 types
+		1.ArrayList
+		2.LinkedList
+		3.Vector
+		4.CopyOnWriteArrayList
+	
+--------------------------------------------------------------------------------------------------------------
+|	ArrayList	|	LinkedList	|	 Vector		 |	CopyOnWriteArrayList	     |
+--------------------------------------------------------------------------------------------------------------
+	single thread		single 			multi thread			multi
+
+	methods>=10		methods>=10		methods>=10			methods>=10
+
+	
+
+1.ArrayList(mutable):
+	-it is a class that is used to CRUD data(homo and hetero) and is good support for reteriving data.
+	-Collection class only work with Wrapper classes.
+	-List follws arrays means index based. It can also be direct.
+	-Allows null ,duplicate,maintains insertion order,mutable in nature,less memory usage.
+	-It is not synchronized means single threaded.
+	-Syntax:
+		generic:
+		List<type> l1 = new ArrayList<type>();
+		normal
+		List l1=new ArrayList();
+		where,
+			List is the interface.
+			l1 is varible.
+			ArrayList() is constructor.
+	-Methods:
+		1.add()-used to elements either by index or normal
+		2.remove()-remove element based on index
+		3.set()-setting the value at particular index
+		4.get()-used to retrieve element
+		5.getFirst()-used to get the first element in the list
+		6.getLast()- used to get last element in the list
+		7.retainAll()-removes all non repeating things
+		etc...
+
+2.LINKED LIST:
+	-it is not index based 
+	-it can be homo and hetero.
+	-Syntax:
+		List<type> l1=new LinkedList<>();
+	-It allows null values, duplicate values and preserves the order.
+	-It Maintains the insertion order i.e., it is good for inserting and deleting the data.
+	-It id dynamic in nature and can be resized.
+	-
+	-
+
+
+
+
+
+
+

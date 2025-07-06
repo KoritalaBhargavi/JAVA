@@ -1,0 +1,44 @@
+3.ENCAPSULATION:
+	-Binding the data through variables.
+	-It provides Security.
+	-The security is achieved using "private" for variables.
+	-In this we use getters and setters for getting and setting the values.
+	-In this setters has parameters as they re used to set values.
+	-for getters there are no parameters as they just return the values.
+	-classes having setters and getters are called POJO.
+	-POJO stands for Plain Old JAVA Object.
+
+4.Polymorphism:
+	-poly means many and morphs means many
+	Ex: me and my relation with my family.
+
+	1.compile time polymorphism(method overloading):
+
+		-Before execution detecting the error.
+		-methods having same name but different parameters.
+		-Method overloading happens in same class.
+
+	2.run time polymorphism(method overriding):
+		-After running it displays errors.
+		-Overriding happens with inheritance in order for the method to be overridden.
+		-We cannot override the static methods only non-static methods are overridded.
+
+
+
+ADVANTAGES OF OOPS:
+
+1.SECURITY
+
+2.CODE REUSEABILITY
+
+3.MANAGABILITY
+
+4.FLEXIBILITY
+
+
+Gosling written 4 interfaces:
+
+1.list-
+2.set-
+3.map-
+4.queue-

@@ -1,0 +1,66 @@
+OOPS:
+	1.INHERITANCE
+	2.ABSTRACTION
+	3.ENCAPSULATION
+	4.POLYMORPHISM
+these are the four pillars of oops in any lanaguage.
+
+1.INHERITANCE:
+-Child class acquiring properties from parent. 
+-Child can be assigned with the properties of parent by using "extends" keyword.
+-Types of object creation for accessing the methods.
+	-1.parent to parent -only parent methods are accessible
+		Ex:
+	-2.child to child  only both parent and child are accessible
+		Ex:Child c=new Child();
+	-3.parent to child:
+		Ex: parent var=new child();
+-Child class can override a parent class and if the object is created with child class the child class method will show dominance.
+-if that method is called via parent the parent method is accessed.
+-if object created via parent child then also child method shows dominance.
+-for method child shows the dominance, for variables parents show dominance.
+
+TYPES OF INHERITANCE:
+1.single level
+2.hierarchical
+3.hybrid
+4.Multiple
+5.multi level
+
+1.single    2.multi level		
+
+parent          Parent			
+
+  |         |     |     |
+
+child     child1 child2 child3
+
+
+
+2.ABSTRACTION:
+-hiding the internal functionality 
+-"abstract" keyword is used.
+-Syntax:
+	Access_modifier abstract class Class_Name{
+		//
+	} 
+
+-abstract class can extend from normal class but normal class cannot extend from abstract class.
+-abstract class can have both abstract and complete methods.
+
+INTERFACE:
+-created by usinf "interface" keyword.
+-it should only have abstract methods only.
+-Syntax:
+	public interface name{
+	}
+
+-EX:
+public interface HelloInterface {
+    public abstract int show(int a,int b);
+    
+}
+-public abstract is not necessary as it take all the methods as public abstract.
+-Interface provides 100% security.
+
+OBJECT 
